@@ -24,14 +24,14 @@ The project examined:
 
 I completed most of the enrolment-data cleaning and prepared the retention classifications used in the dashboard.
 
-The enrolment dataset contained approximately 285,000 records across 43 fields. This was a exisitng de-identified dataset at the university. My preparation work included:
+The enrolment dataset contained approximately 285,000 records across 43 fields. This was an existing de-identified dataset provided by the university for the academic project. My preparation work included:
 
 - Profiling the dataset structure, data types and completeness
 - Auditing missing values across the available fields
 - Replacing missing advanced-standing, credited and completed credit points with zero where the missing value represented no recorded credit
 - Labelling missing grades as `Not Graded`
 - Retaining missing course-completion dates and weighted average marks where the absence carried meaningful information, rather than applying an unsupported imputation
-- Creating a code tag in the retention data to classify whether a course was retained or discontinued based on course transfers and withdrawals
+- Created a code tag classifying records as Completed, Course Retained, or Not Retained in Year X + 1 using continuation, completion, transfer and withdrawal information
 
 The source datasets and student-level records are not included in this public repository due to data privacy concerns.
 
@@ -87,4 +87,4 @@ My individual contribution focused on preparing the data, developing key dashboa
 - Connected the student enrolment and retention datasets so they could jointly inform the KPIs
 - Redesigned the final presentation to communicate the findings in business-friendly language rather than technical jargon
 
-The Student Success Risk Predictor was developed by other members of the project team and is not presented as my individual work, although I did assess the data used and the methodology.
+The Student Success Risk Predictor was developed by other members of the project team and is not presented as my individual work. I reviewed how the predictor and its results were communicated within the final dashboard and presentation.
