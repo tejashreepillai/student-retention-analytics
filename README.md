@@ -37,7 +37,7 @@ The enrolment dataset contained approximately 285,000 records across 43 fields. 
 - Replacing missing advanced-standing, credited and completed credit points with zero where the missing value represented no recorded credit
 - Labelling missing grades as `Not Graded`
 - Retaining missing course-completion dates and weighted average marks where the absence carried meaningful information, rather than applying an unsupported imputation
-- Created a code tag classifying records as Completed, Course Retained, or Not Retained in Year X + 1 using continuation, completion, transfer and withdrawal information
+- Created a `CODE_TAG` field classifying progression outcomes as `Course Retained`, `Faculty Retained`, `MQ Retained`, `Completed`, or `Not Retained in Year X + 1`, using continuation, completion and transfer indicators
 
 The source datasets and student-level records are not included in this public repository due to data privacy concerns.
 
@@ -59,12 +59,14 @@ My work included:
 
 The original Power BI file and confidential source data are not included in this repository.
 
+The university-level retention calculation followed the supplied institutional definition: students returning in academic year X+1 divided by students enrolled in year X, excluding relevant course completions in year X or X+1 where no subsequent enrolment existed. Students were counted once per academic year for the university-level measure.
+
 ## Key Findings
 
 The completed dashboard reported:
 
 - **80.68% overall retention**
-- **2.24% withdrawal rate**
+- **2.24% unit withdrawal rate**
 - **3.07 years average completion time**
 - Higher retention and WAM among full-time students compared with part-time students
 - Retention approximately four percentage points higher for combined-course students
@@ -88,7 +90,7 @@ My individual contribution focused on preparing the data, developing key dashboa
 - Completed the majority of the data cleaning required for analysis
 - Built most of the charts used in the University Executive dashboard
 - Developed the dashboard colour scheme and reviewed design options proposed by other team members
-- Created the retention-rate and withdrawal-rate KPIs
+- Created the retention-rate and unit withdrawal-rate KPIs
 - Developed DAX calculations supporting the dashboard metrics
 - Connected the student enrolment and retention datasets so they could jointly inform the KPIs
 - Redesigned the final presentation to communicate the findings in business-friendly language rather than technical jargon
