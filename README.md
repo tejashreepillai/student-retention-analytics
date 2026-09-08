@@ -82,7 +82,16 @@ These patterns helped highlight where further investigation, targeted academic s
 - Retention results depend on the classification rules used to label completion, continuation and non-retention
 - Relevant factors such as student engagement, employment commitments and support-service use were not available
 - The confidential source data and original Power BI model cannot be independently reproduced in this public repository
-  
+
+## How to Run the Public Recreation
+
+The included scripts run only on the synthetic sample data contained in this repository.
+
+```bash
+git clone https://github.com/tejashreepillai/student-retention-analytics.git
+cd student-retention-analytics
+python -m venv .venv
+
 ## My Contribution
 
 My individual contribution focused on preparing the data, developing key dashboard components and communicating the results clearly to a business audience.
