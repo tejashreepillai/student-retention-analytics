@@ -8,6 +8,18 @@ This academic group project examined student retention, withdrawal and progressi
 
 The project was completed by a team of five. This repository explains the overall business problem while clearly identifying the components I personally completed. The original institutional datasets are confidential and are not included.
 
+## Business Questions
+
+The analysis was designed around two dashboard audiences: University Executives and Unit Convenors.
+
+The project examined:
+
+- How retention and withdrawal rates changed across different student cohorts
+- Whether study load, academic performance and other student characteristics were associated with different outcomes
+- Which units showed potential progression bottlenecks or differences between actual and expected pass rates
+- Where repeat enrolments and early academic signals could indicate a need for additional support
+- How university leaders could use these findings for intervention planning and resource allocation
+  
 ## My Contribution
 
 My individual contribution focused on preparing the data, developing key dashboard components and communicating the results clearly to a business audience.
