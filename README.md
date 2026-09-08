@@ -82,6 +82,16 @@ These patterns helped highlight where further investigation, targeted academic s
 - Retention results depend on the classification rules used to label completion, continuation and non-retention
 - Relevant factors such as student engagement, employment commitments and support-service use were not available
 - The confidential source data and original Power BI model cannot be independently reproduced in this public repository
+## Repository Contents
+
+| File | Purpose |
+|---|---|
+| [Enrolment cleaning script](src/enrolment_cleaning.py) | Recreates the documented missing-value treatment |
+| [Retention classification script](src/create_retention_code_tag.py) | Generates the five progression categories |
+| [Synthetic enrolment data](data/student_enrolment_sample.csv) | Invented records for demonstrating the cleaning workflow |
+| [Synthetic retention data](data/student_retention_sample.csv) | Invented year-to-year progression records |
+| [Synthetic data dictionary](docs/data_dictionary.md) | Explains the fields used in the public recreation |
+| [Requirements](requirements.txt) | Lists the Python dependency |
 
 ## How to Run the Public Recreation
 
