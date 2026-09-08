@@ -1,0 +1,23 @@
+# Confidential source files
+*.pbix
+*.pbit
+*.xlsx
+*.xls
+*.pptx
+
+# Private-data folders
+data/private/
+data/original/
+
+# Files generated when the public scripts are run
+data/student_enrolment_cleaned.csv
+data/student_retention_classified.csv
+
+# Python temporary files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
