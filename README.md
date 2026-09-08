@@ -91,6 +91,23 @@ The included scripts run only on the synthetic sample data contained in this rep
 git clone https://github.com/tejashreepillai/student-retention-analytics.git
 cd student-retention-analytics
 python -m venv .venv
+```
+
+On Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+Install the dependency and run both scripts:
+
+```bash
+pip install -r requirements.txt
+python src/enrolment_cleaning.py
+python src/create_retention_code_tag.py
+```
+
+The scripts create cleaned and classified CSV outputs locally. These generated files are excluded from GitHub through `.gitignore`.
 
 ## My Contribution
 
