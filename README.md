@@ -8,6 +8,12 @@ This academic group project examined student retention, withdrawal and progressi
 
 The project was completed by a team of five. This repository explains the overall business problem while clearly identifying the components I personally completed. The original institutional datasets are confidential and are not included.
 
+## Dashboard Preview
+
+![University Executive student retention dashboard](university-executive-dashboard.png)
+
+*University Executive dashboard created as part of the five-person group project. My contribution included most of the data cleaning, the student lookup and data model, retention and withdrawal KPIs, most dashboard charts, the colour scheme and the business-facing presentation. The Student Success Risk Predictor was developed by other team members.*
+
 ## Business Questions
 
 The analysis was designed around two dashboard audiences: University Executives and Unit Convenors.
