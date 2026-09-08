@@ -52,6 +52,28 @@ My work included:
 - Validating whether the dashboard results reflected the underlying retention classifications
 
 The original Power BI file and confidential source data are not included in this repository.
+
+## Key Findings
+
+The completed dashboard reported:
+
+- **80.68% overall retention**
+- **2.24% withdrawal rate**
+- **3.07 years average completion time**
+- Higher retention and WAM among full-time students compared with part-time students
+- Retention approximately four percentage points higher for combined-course students
+- Lower retention and WAM among equity cohorts
+- Large student volumes and notable retention variation across major teaching faculties
+
+These patterns helped highlight where further investigation, targeted academic support and resource planning could be valuable.
+
+## Limitations
+
+- The analysis identifies descriptive patterns and associations; it does not establish that a particular student characteristic caused retention or withdrawal
+- Recent cohorts have had less time to complete or demonstrate long-term retention
+- Retention results depend on the classification rules used to label completion, continuation and non-retention
+- Relevant factors such as student engagement, employment commitments and support-service use were not available
+- The confidential source data and original Power BI model cannot be independently reproduced in this public repository
   
 ## My Contribution
 
