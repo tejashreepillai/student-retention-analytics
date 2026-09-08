@@ -34,6 +34,24 @@ The enrolment dataset contained approximately 285,000 records across 43 fields. 
 - Creating a code tag in the retention data to classify whether a course was retained or discontinued based on course transfers and withdrawals
 
 The source datasets and student-level records are not included in this public repository due to data privacy concerns.
+
+## Data Model, DAX and Validation
+
+To analyse enrolment characteristics alongside year-to-year progression outcomes, I created a `Student_Lookup` table containing one distinct record per student. I used this as a bridge between the enrolment and retention datasets, avoiding a direct many-to-many relationship between the two fact tables.
+
+The model used one-to-many, single-direction relationships from the student lookup table to the enrolment and retention tables. This allowed student-level filters to flow consistently across both datasets.
+
+My work included:
+
+- Creating the student lookup and bridge-table structure
+- Connecting enrolment characteristics with retention outcomes
+- Developing DAX measures for retention rate and withdrawal rate
+- Designing measures to respond to year, faculty, study-load and cohort filters
+- Testing filter behaviour when unique-student totals did not change correctly across faculties
+- Investigating unusual year-level results, including the lower 2025 retention rate
+- Validating whether the dashboard results reflected the underlying retention classifications
+
+The original Power BI file and confidential source data are not included in this repository.
   
 ## My Contribution
 
